@@ -1,7 +1,7 @@
 #!/bin/bash
 #Setup the functions
 toilet "MiniShell" -f mini --metal
-echo -e "\e[1;34mMiniShell \e[1;35m1.0 \e[0;0mby Kat21. Type \e[1;36m'help' \e[0;0mfor commands."
+echo -e "\e[1;34mMiniShell \e[1;35m1.0 \e[0;0mby CoconutDev. Type \e[1;36mhelp \e[0;0mfor commands."
 function jumpto() {
     label=$1
     cmd=$(sed -n "/$label:/{:a;n;p;ba};" $0 | grep -v ':$')
@@ -14,6 +14,10 @@ echo "Checking for packages.."
 command -v toilet
 if [ "$?" == "1" ]; then
     echo "Toilet not found. Please install it!"
+fi
+command -v figlet
+if [ "$?" == "1" ]; then
+    echo "Figlet not found. Please install it!"
 fi
 
 jumpto $start
@@ -60,5 +64,5 @@ fi
 
 welcome:
 toilet "MiniShell" -f mini --metal
-echo -e "\e[1;34mMiniShell \e[1;35m1.0 \e[0;0mby Kat21. Type \e[1;36m'help' \e[0;0mfor commands."
+echo -e "\e[1;34mMiniShell \e[1;35m1.0 \e[0;0mby CoconutDev. Type \e[1;36mhelp \e[0;0mfor commands."
 jumpto start
