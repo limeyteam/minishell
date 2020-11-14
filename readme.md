@@ -1,6 +1,4 @@
-# 
-
-![MiniShell](./logo.svg)
+# ![MiniShell](./logo.svg)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/datkat21/minishell?style=flat-square)
 
@@ -13,15 +11,13 @@ You can type `help` for some commands.
 
 Clone the repository, you need `git` .
 
-``` 
-
+```
 git clone https://github.com/datkat21/minishell
 ```
 
 Next, run the script.
 
-``` 
-
+```
 bash minishell/mini.sh
 ```
 
@@ -33,11 +29,11 @@ bash minishell/mini.sh
 
 If you get this during startup, 
 
-```[Warning] Dialog not found. Please install it!
+```
+[Warning] Dialog not found. Please install it!
 [Warning] Figlet not found. Please install it!
 [Warning] Toilet not found. Please install it!
 [Error] Missing all required packages. Please check above.
-
 ``` 
 
 please make sure you have `toilet` , `figlet` , and `dialog` installed.
@@ -45,9 +41,7 @@ please make sure you have `toilet` , `figlet` , and `dialog` installed.
 On any distro that has the `apt` command, you can use this handy command to install them:
 
 ```
-
 sudo apt install toilet figlet dialog
-
 ``` 
 
 ### Missing X packages error
