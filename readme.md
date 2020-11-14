@@ -1,4 +1,6 @@
-# ![MiniShell](./logo.svg)
+# 
+
+![MiniShell](./logo.svg)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/datkat21/minishell?style=flat-square)
 
@@ -12,12 +14,14 @@ You can type `help` for some commands.
 Clone the repository, you need `git` .
 
 ``` 
+
 git clone https://github.com/datkat21/minishell
 ```
 
 Next, run the script.
 
 ``` 
+
 bash minishell/mini.sh
 ```
 
@@ -51,18 +55,14 @@ sudo apt install toilet figlet dialog
 If you get this error at startup:
 
 ```
-
 [Warning] Missing 2 packages. Please check above.
-
 ``` 
 
 check the text above and install those packages. If it says, for example, 
 
 ```
-
 [Warning] Dialog not found. Please install it!
 [Warning] Toilet not found. Please install it!
-[Warning] Missing 2 packages. Please check above.
 ```
 
 then you would install those packages using ex. `sudo apt install toilet dialog`
