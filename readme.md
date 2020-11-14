@@ -1,4 +1,4 @@
-# ![MiniShell](./logo.svg)
+![MiniShell](https://github.com/coconutteamdev/minishell/raw/main/logo.svg)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/datkat21/minishell?style=flat-square)
 
