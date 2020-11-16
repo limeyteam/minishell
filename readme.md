@@ -32,6 +32,7 @@ You can type `help` for some commands.
 
 
 # Features
+
 - Command suggestions [[#3]](https://github.com/coconutteamdev/minishell/issues/3)
 
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/command_suggestions.png)
@@ -41,6 +42,7 @@ You can type `help` for some commands.
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/missing1.png)
 
 - Simple to use and colorful [[#4]](https://github.com/coconutteamdev/minishell/issues/4)
+
 
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/drawexample2.png)
 
