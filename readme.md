@@ -33,11 +33,17 @@ You can type `help` for some commands.
 
 # Features
 - Command suggestions [#3]
+
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/command_suggestions.png)
+
 - Check for installed packages at startup [#5]
+
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/missing1.png)
+
 - Simple to use and colorful [#4]
+
 ![img](https://raw.githubusercontent.com/coconutteamdev/minishell/main/assets/img/drawexample2.png)
+
 ## Planned features:
 - Multiple arguments per command
 - Colors in `draw`
