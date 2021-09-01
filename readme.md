@@ -1,3 +1,5 @@
+# MINISHELL IS NOW DEPRICATED PLEASE CHECK OUT YASH IN THE @limeyteam ORGANIZATION
+
 # ![MiniShell](https://raw.githubusercontent.com/coconutteamdev/minishell/b5d8231b100e836203c59087ce0ce9ef06ed6c86/logo.svg)
 
 ## Welcome to MiniShell's Readme!
